@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from .Passageiro import Passageiro
+from Passageiro import Passageiro
 
 @dataclass
 class Corrida:

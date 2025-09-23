@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from .Corrida import Corrida
+from Corrida import Corrida
 
 @dataclass
 class Motorista:
