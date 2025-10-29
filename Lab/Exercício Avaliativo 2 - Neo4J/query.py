@@ -1,6 +1,6 @@
 from database import Database
 
-db = Database("bolt://localhost:7687", "neo4j", "senha_aqui")
+db = Database("bolt://localhost:7687", "neo4j", "neo4jtest")
 
 #Questão 1
 query1 = """

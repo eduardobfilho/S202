@@ -2,7 +2,7 @@ from database import Database
 from teacher_crud import TeacherCRUD
 
 def main():
-    db = Database("bolt://localhost:7687", "neo4j", "senha_aqui")
+    db = Database("bolt://localhost:7687", "neo4j", "neo4jtest")
     teacher_crud = TeacherCRUD(db)
 
     while True:
